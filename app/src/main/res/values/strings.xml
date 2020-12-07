@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">QuizAssignment2</string>
+    <string name="button_search">Search</string>
+    <string name="hint_search">Search term</string>
+</resources>
