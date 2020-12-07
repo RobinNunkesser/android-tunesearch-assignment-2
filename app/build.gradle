@@ -8,7 +8,7 @@ android {
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "de.hshl.isd.quizassignment2"
+        applicationId "de.hshl.isd.tunesearchassignment2"
         minSdkVersion 23
         targetSdkVersion 30
         versionCode 1

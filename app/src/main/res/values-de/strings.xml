@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">QuizAssignment2</string>
+    <string name="app_name">TunesearchAssignment2</string>
     <string name="button_search">Suchen</string>
     <string name="hint_search">Suchbegriff</string>
 </resources>

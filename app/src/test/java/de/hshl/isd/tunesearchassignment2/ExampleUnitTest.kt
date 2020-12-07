@@ -1,4 +1,4 @@
-package de.hshl.isd.quizassignment2
+package de.hshl.isd.tunesearchassignment2
 
 import org.junit.Test
 

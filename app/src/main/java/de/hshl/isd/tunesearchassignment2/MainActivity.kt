@@ -1,8 +1,8 @@
-package de.hshl.isd.quizassignment2
+package de.hshl.isd.tunesearchassignment2
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import de.hshl.isd.quizassignment2.ui.main.MainFragment
+import de.hshl.isd.tunesearchassignment2.ui.main.MainFragment
 
 class MainActivity : AppCompatActivity() {
 
