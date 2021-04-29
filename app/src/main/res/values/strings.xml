@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name">TunesearchAssignment2</string>
-    <string name="button_search">Search</string>
-    <string name="hint_search">Search term</string>
+    <string name="app_name">TuneSearchAssignment2</string>
+    <string name="image_content_desc">Album artwork</string>
 </resources>

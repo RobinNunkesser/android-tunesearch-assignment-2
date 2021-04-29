@@ -1,12 +1,25 @@
 package de.hshl.isd.tunesearchassignment2
 
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
+import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
+import androidx.activity.viewModels
+import androidx.compose.runtime.Composable
+import androidx.navigation.compose.rememberNavController
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : ComponentActivity() {
+    private val mainViewModel by viewModels<MainViewModel>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.main_activity)
+        setContent {
+            MainContent(viewModel = mainViewModel)
+        }
     }
+}
+
+@Composable
+fun MainContent(viewModel: MainViewModel) {
+    val navController = rememberNavController()
+    NavigationHost(navController,viewModel)
 }
