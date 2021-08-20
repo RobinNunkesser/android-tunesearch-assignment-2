@@ -12,7 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.google.accompanist.coil.rememberCoilPainter
+import coil.compose.rememberImagePainter
 
 
 @Composable
@@ -22,7 +22,7 @@ fun TrackRow(item: TrackViewModel) {
     ) {
         Row(modifier = Modifier.padding(top = 4.dp)) {
             Image(
-                painter = rememberCoilPainter(item.image),
+                painter = rememberImagePainter(item.image),
                 contentDescription = stringResource(R.string.image_content_desc)
             )
             Column {

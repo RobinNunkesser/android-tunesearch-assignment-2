@@ -14,10 +14,9 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import androidx.navigation.compose.navigate
-import de.hshl.isd.explicitarchitecture.tunesearch.core.MockSearchTracksCommand
-import de.hshl.isd.explicitarchitecture.tunesearch.core.ports.CollectionEntity
-import de.hshl.isd.explicitarchitecture.tunesearch.core.ports.SearchTracksDTO
+import io.github.robinnunkesser.explicitarchitecture.tunesearch.core.MockSearchTracksCommand
+import io.github.robinnunkesser.explicitarchitecture.tunesearch.core.ports.CollectionEntity
+import io.github.robinnunkesser.explicitarchitecture.tunesearch.core.ports.SearchTracksDTO
 
 @Composable
 fun MainScreen(navController: NavController, viewModel: MainViewModel) {
